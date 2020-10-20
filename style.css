@@ -1,0 +1,82 @@
+body {
+    background-color: aliceblue;
+}
+
+
+.hr1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* footer start*/
+.header1 {
+    margin-left: 50px;
+}
+
+
+.span1 {
+    
+    background-color: blue;
+    color: white;
+}
+.select1 {
+    border: none;
+    color: grey;
+    background-color: aliceblue;
+}
+.select1 option li a:hover {
+    color: rgb(80, 148, 175);
+}
+.ul1  {
+    list-style-type: none;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.ul1 a {
+    text-decoration: none;
+    color: grey;
+}
+.ul1 a:hover {
+    color: skyblue;
+}
+.p1 {
+    font-size: small;
+    color: rgb(143, 108, 108);
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.img-foot {
+    margin-right: 10px;
+}
+
+.label-foot {
+    color: grey;
+}
+.select-foot {
+    color: rgb(4, 130, 180);
+    border: 2px solid;
+    width: 300px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.select-foot:hover {
+    border: 2px solid black;
+}
+.div-footer1, .div-footer2, .div-footer3,  .div-footer4 {
+    float: left;
+    margin-right: 40px;
+}
+
+.div-footer5 {
+    float: left;
+}
+
+.div-footer6 {
+    clear: both;
+}
+
+.p-foot {
+    margin-left: 50px;
+}
+
