@@ -24,7 +24,7 @@ body {
     color: grey;
     background-color: aliceblue;
 }
-.select1 option li a:hover {
+.select1:hover {
     color: rgb(80, 148, 175);
 }
 .ul1  {
