@@ -98,8 +98,8 @@
     <br><br><br><br><br><br><br><br><br><br>
     <main>
         <div class="container">
-            <div class="row bg-white">
-                <div class="col1 col-lg-8 border" >
+            <div class="row">
+                <div class="col1 col-lg-8 col-md-10 col-sm-12 border bg-white" >
                     <div class="fb-profile-block">
                         <div class="fb-profile-block-thumb cover-container"></div>
                         <div class="profile-img">
@@ -123,27 +123,181 @@
                                <img class="therap-logo " src="Therap-logo.jpg" alt="therap logo"> <a href="#" class="logo">Therap Services</a>
                                <br><br>
                                <img class="therap-logo " src="sust logo.png" alt="therap logo"> <a href="#" class="logo">Shahjalal University of <br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Science and Technology</a>
+                            </div>
                                <div class="div-footer6" >
-        
                             </div>
-                            </div>
-                        </div>
+                  </div>
+                        
                         <br>
-                    </div>
-                    <div class="col2 col-lg-3 border">
+             </div>
+                    <div class="col2 col-lg-3 col-md-6 col-sm-12 border fixed-right" >
                         <h4 style="color: white; margin-top: 20px; margin-left: 10px;">Your dream</h4>
                         <h4 style="color: white; margin-left: 12px;">job is closer</h4>
                         <h4 style="color: white; margin-left: 10px;">than you</h4>
                         <h4 style="color: white; margin-left: 10px;">think</h4>
                         <button class="btn ml-2 btn-primary mr-2 mt-4 px-3 btn-sm">See jobs</button>
                         <h1 class="header1" style="text-align: right; color: white; margin-top: 50px;">Linked<span class="span1">in</span></h1>
+                    
                     </div>
+                   
+
+               
+            </div>
+
+                <!--2nd section-->
+                <div class="row" >
+
+                    <div class=" highlights col-lg-8 col-md-10 col-sm-12 border mt-5 bg-white" >
+                        <h6 class="mt-4 ml-3">Highlights</h6>
+                        <div class="Highlights1">
+                        <img src="card.jpg" class="rounded-circle mt-2 ml-4 mb-4" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="highlights2">
+                        <a href="#">
+                        <p class="row2-1  "><b>6 mutual connections</b></p>
+                        <p class=" row2  ">You and Jarin both know Mr. Ray, Mr. Rahman and 4 others  </p>
+                    </a>
+                    </div>
+                    <div class="div-footer6" >
+        
+                    </div>
+                    </div>
+                
+                    <div class=" highlights-col2 card border bg-white "  >
+                    <h6 class="mt-4 ml-3">People Also Viewed</h6>
+                    <div class="card-body">
+                    <div class="card1">
+                        <img src="for card.jpg" class="rounded-circle" style="height: 40px; width: 40px;">
+                    </div>
+                    <div class="card2" >
+                        <a href="#"><b>Altamas</b></a><br>
+                        <a href="#"> . 2nd</a><br>
+                        <i class="fas fa-user-plus ml-4 rounded-circle"></i>
+                        <a href="#">Full Stack Developer</a><br>
+                        <a href="#"> Kinetik</a><br>
+                        <hr>
+                    </div>
+                        <div class="div-footer6" >
+        
+                        </div>
+                        
+                        
+                                <!-- show more-->
+                               <div class="bg-white" >
+                                <span id="dots"></span><span id="more">
+                                   
+                                
+                                  
+                        <div class="card1">
+                            <img src="for card1.jpg" class="rounded-circle" style="height: 40px; width: 40px;">
+                        </div>
+                        <div class="card2" >
+                            <a href="#"><b>David</b></a><br>
+                            <a href="#"> . 1st</a><br>
+                            <i class="fas fa-user-plus ml-4 rounded-circle"></i>
+                            <a href="#">Software Engineer</a><br>
+                            <a href="#">Therap Services</a><br>
+                            <hr>
+                        </div>
+                            <div class="div-footer6" >
+            
+                            </div>
+                                
+                            <div class="card1">
+                                <img src="for card2.jpg" class="rounded-circle" style="height: 40px; width: 40px;">
+                            </div>
+                            <div class="card2" >
+                                <a href="#"><b>Tasnim</b></a><br>
+                                <a href="#"> . 3rd</a><br>
+                                <i class="fas fa-user-plus ml-4 rounded-circle"></i>
+                                <a href="#">Software Engineer</a><br>
+                                <a href="#">Therap Services</a><br>
+                                <hr>
+                            </div>
+                                <div class="div-footer6" >
+                
+                                </div>
+
+                                <div class="card1">
+                                    <img src="for card.jpg" class="rounded-circle" style="height: 40px; width: 40px;">
+                                </div>
+                                <div class="card2" >
+                                    <a href="#"><b>Altamas</b></a><br>
+                                    <a href="#"> . 2nd</a><br>
+                                    <i class="fas fa-user-plus ml-4 rounded-circle"></i>
+                                    <a href="#">Full Stack Developer</a><br>
+                                    <a href="#"> Kinetik</a><br>
+                                    <hr>
+                                </div>
+                                    <div class="div-footer6" >
+                    
+                                    </div>
+
+                                </span>
+                                <button  onclick="myFunction()" id="myBtn">Show more</button>
+                                
+                                <script>
+                                function myFunction() {
+                                  var dots = document.getElementById("dots");
+                                  var moreText = document.getElementById("more");
+                                  var btnText = document.getElementById("myBtn");
+                                
+                                  if (dots.style.display === "none") {
+                                    dots.style.display = "inline";
+                                    btnText.innerHTML = "Show more"; 
+                                    moreText.style.display = "none";
+                                  } else {
+                                    dots.style.display = "none";
+                                    btnText.innerHTML = "Show less"; 
+                                    moreText.style.display = "inline";
+                                  }
+                                }
+                                </script>
+                                </div>
+                                     </div>
+                                    </div>
+                      </div> 
+                
+                                  <!--2nd section end-->
+                      <!--3rd section start-->
+                      <div class="row mb-5" >
+
+                        <div class=" highlights col-lg-8 col-md-10 col-sm-12 border bg-white" style="height: 200px;">
+                            <h6 class="mt-4 ml-3">About</h6>
+                            
+                        <div>
+                           <p class="ml-4"> Programmer, Developer, Blockchain Developer, Hult Prize Regional Finalist, ACM ICPC Regional Final Participant.
+                            3 Years of experience in android development. currently working on Hyperledger Fabric... </p>
+                        </div>
+                        <a href="#demo" data-toggle="collapse" class="d-block ml-4  text-left">See more</a>
+        <div class="collapse" id="demo">
+          <p class="bg-white">Outgoing and detail-oriented, proficient at building and maintaining professional relationships. </p>
+        </div>
+                        
 
 
-                </div>
-             </div>
-         </div>
+
+                     </div>  
+                      
+                        </div>
+                                
+               
+
+            
+
+
+
+
+             
+        </div>
     </main>
+
+
+
+
+
+
+
     <br><br><br><br>
     <hr class="hr1">
     <footer>

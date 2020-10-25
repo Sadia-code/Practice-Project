@@ -108,13 +108,93 @@ body {
 .sust {
     margin-left: 10px;
 }
+.div-footer6 {
+    clear: both;
+}
 .col2 {
     background-image: url(card.jpg);
-    height: 350px;
+    height: 400px;
     margin-left: 30px;
     padding: 10px;
     width: 200px;
+   
+    
+   
 }
+.highlights {
+    height: 150px;
+}
+.Highlights1 {
+    float: left;
+}
+.Highlights2 {
+    float: left;
+    
+}
+.row2-1 {
+    margin-left: 100px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    color: black;
+}
+.row2 {
+    margin-left: 100px;
+    margin-top: 0;
+    color: black;
+}
+.Highlights2 p:hover {
+    text-decoration: underline;
+    color: aliceblue;
+    
+}
+.div-footer6 {
+    clear: both;
+}
+
+.highlights-col2 {
+    height: 250px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.card1 {
+    float: left;
+}
+.card2 {
+    margin-left: 60px;
+}
+.card2 a {
+    color: black;
+    float: left;
+   
+}
+
+.card2 i {
+    border: black 2px solid;
+    padding: 3px;
+}
+.card2 i:hover {
+    color: blue;
+    border: blue 2px solid;
+}
+
+.card2 a:hover {
+    color: dodgerblue;
+}
+.div-footer6 {
+    clear: both;
+}
+
+.button-class {
+    color: dodgerblue;
+    border: 0px  ;
+    background-color: white;
+}
+
+
+
+
+
 /* main end*/
 .hr1 {
     margin-left: 50px;
